@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
       mini = Hash[name, num]
     elsif mini != {} && mini[name] < num
       mini = Hash[name, num]
+      the_name = name
     end
   end
 end
