@@ -11,7 +11,11 @@ def key_for_min_value(name_hash)
       comp = num
     end
   end
-  puts comp
+  name_hash.collect do |name, num|
+    if condition
+      
+    end
+  end
 end
 
 key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
