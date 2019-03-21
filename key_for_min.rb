@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       mini = {name: num}
     end
   end
+  mini.keys[0]
 end
 
 # Jackson = {name: "Jack"}
