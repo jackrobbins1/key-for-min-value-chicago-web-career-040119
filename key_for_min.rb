@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       comp = num
     end
   end
-  comp
+  puts comp
 end
 
 key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
