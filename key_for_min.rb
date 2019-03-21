@@ -9,7 +9,6 @@ def key_for_min_value(name_hash)
       comp = num
     elsif comp != 0 && comp > num
       comp = num
-      puts comp
     end
   end
 end
