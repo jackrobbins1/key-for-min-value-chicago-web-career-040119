@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
       the_name = name
     end
   end
+  the_name
 end
 
 # Jackson = {name: "Jack"}
