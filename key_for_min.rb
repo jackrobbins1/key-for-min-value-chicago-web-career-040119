@@ -12,8 +12,8 @@ def key_for_min_value(name_hash)
     end
   end
   name_hash.collect do |name, num|
-    if condition
-
+    if comp == num
+      return name
     end
   end
 end
