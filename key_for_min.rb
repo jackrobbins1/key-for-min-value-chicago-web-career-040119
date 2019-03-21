@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if mini == {}
       mini = Hash[name, num]
     elsif mini != {} && mini[name] < num
-      mini = {name => num}
+      mini = Hash[name, num]
     end
   end
   mini.keys[0]
