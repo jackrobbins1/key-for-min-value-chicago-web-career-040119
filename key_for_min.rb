@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   mini = {}
+  the_name = 
   name_hash.collect do |name, num|
     if mini == {}
       mini = Hash[name, num]
@@ -10,7 +11,6 @@ def key_for_min_value(name_hash)
       mini = Hash[name, num]
     end
   end
-  mini.keys[0]
 end
 
 # Jackson = {name: "Jack"}
