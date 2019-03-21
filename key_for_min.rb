@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
   comp = -1
   name_hash.collect do |name, num|
     puts num
-    if num
-
+    if comp == -1
+      comp = num
     end
   end
 end
