@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if comp == 0
       comp = num
     elsif comp != 0 && comp > num
-      
+      comp = num
     end
   end
 end
