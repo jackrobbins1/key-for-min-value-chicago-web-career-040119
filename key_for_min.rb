@@ -5,9 +5,9 @@ def key_for_min_value(name_hash)
   mini = {}
   name_hash.collect do |name, num|
     if mini == {}
-      mini = {name: num}
+      mini = {name num}
     elsif mini != {} && mini[:name] < num
-      mini = {name: num}
+      mini = {name num}
     end
   end
   mini.keys[0]
