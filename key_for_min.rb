@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
   comp = 0
   name_hash.collect do |name, num|
-    puts num
     if comp == 0
       comp = num
     elsif comp != 0 && comp > num
@@ -13,7 +12,6 @@ def key_for_min_value(name_hash)
   end
   name_hash.collect do |name, num|
     if comp == num
-      puts name
       return name
     end
   end
