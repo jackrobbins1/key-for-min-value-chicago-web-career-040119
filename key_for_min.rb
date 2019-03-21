@@ -12,5 +12,5 @@
 #   end
 # end
 
-Jackson = {name: Jack}
+Jackson = {name: "Jack"}
 puts Jackson
