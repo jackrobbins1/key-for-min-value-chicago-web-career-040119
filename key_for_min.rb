@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
   end
   name_hash.collect do |name, num|
     if comp == num
+      puts name
       return name
     end
   end
