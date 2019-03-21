@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   mini = {}
   the_name = nil
-  name_hash.collect do |name, num|
+  name_hash.each do |name, num|
     if mini == {}
       mini = Hash[name, num]
     elsif mini != {} && mini[name] < num
